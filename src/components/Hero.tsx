@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import baffle from "baffle";
-import dragon from "./assets/dragondone.mp4";
+// import dragon from "./assets/dragondone.mp4";
 import brochure from "./assets/HackTronix1.0_Brochure.pdf";
 import placeholderImage from "./assets/DRAGON.jpeg";
 import { UiverseButton, GlowingButton } from "./Buttons";
@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
   return (
     <section id="home" className="relative min-h-screen overflow-hidden">
       {/* Background Video */}
-      {!videoLoaded && (
+      {/* {!videoLoaded && (
         <img
           src={placeholderImage}
           alt="Loading background"
@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
         onError={(e) => console.error("Video Error:", e)}
       >
         <source src={dragon} type="video/mp4" />
-      </video>
+      </video> */}
 
       {/* Overlay for better text visibility */}
       <div className="absolute inset-0 bg-black/40"></div>
