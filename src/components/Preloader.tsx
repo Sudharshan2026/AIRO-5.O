@@ -19,11 +19,11 @@ const Preloader: React.FC = () => {
   return (
     <div className="preloaderBg">
       {/* Background Video */}
-      <div className="video-container">
+      {/* <div className="video-container">
         <video autoPlay muted loop>
           <source src={preloader} type="video/mp4" />
         </video>
-      </div>
+      </div> */}
 
       {/* Preloader Logo */}
       <div className="preloader flex items-center justify-center pb-5">

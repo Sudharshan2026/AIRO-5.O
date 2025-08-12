@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import baffle from "baffle";
 // import dragon from "./assets/dragondone.mp4";
-import brochure from "./assets/HackTronix1.0_Brochure.pdf";
+// import brochure from "./assets/HackTronix1.0_Brochure.pdf";
 import placeholderImage from "./assets/DRAGON.jpeg";
 import { UiverseButton, GlowingButton } from "./Buttons";
 
@@ -107,7 +107,7 @@ const Hero: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <GlowingButton text="Register Now" href="https://docs.google.com/forms/d/e/1FAIpQLSfG1mb6YvrWuT6T_5AWUj8lZ_CrInreJWsun6hGu89i2LBGfw/viewform?usp=dialog" />
-              <UiverseButton text="Brochure" href={brochure} />
+              {/* <UiverseButton text="Brochure" href={brochure} /> */}
               <UiverseButton text="PPT_Template" href="https://docs.google.com/presentation/d/1nKZcI3bf1qQ3l2ifRkYlElMbTPchn-uXCpuAZXE7Sw4/edit?usp=sharing" />
             </div>
           </div>
